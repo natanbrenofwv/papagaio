@@ -1,0 +1,54 @@
+/* resetando o css dos nossos elementos html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilizando main*/
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contemt img{
+   width: 300px;
+   height: fit-content;
+   margin-bottom: 30px;
+}
+.contemt{
+    background-color: white;
+    padding: 30p;
+    border-radius: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+h1{
+color: red;
+text-transform: uppercase;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#No{
+   background-color: red;
+   border: none;
+   width: 80px;
+   height: 30px;
+   border-radius: 10px;
+   color: white; 
+}
+
+#yes{
+    background-color: green;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
